@@ -2,9 +2,10 @@ import { Routes } from '../routes/Routes'
 import '../css/App.css'
 
 function App() {
-
   return (
-    <Routes />
+    <div className="App">
+      <Routes />
+    </div>
   )
 }
 

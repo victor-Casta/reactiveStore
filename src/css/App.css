@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  h2 {
-    @apply text-red-800 font-black;
+  .App {
+    @apply w-full h-full;
   }
 }
