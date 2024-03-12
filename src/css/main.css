@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  h2 {
-    @apply text-blue-800 font-black;
+  body {
+    @apply bg-stone-900 text-6xl font-black;
   }
 }
