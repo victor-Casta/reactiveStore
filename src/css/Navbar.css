@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  nav {
+    @apply w-full bg-SecondaryBlack;
+  }
+  .Navbar {
+    @apply w-full max-w-[1440px] px-5 mx-auto h-24 flex justify-between items-center sm:px-20;
+    .options {
+      @apply flex gap-4;
+      ul li {
+        @apply mx-6 text-BeigetextColor font-semibold hidden md:inline-block;
+      }
+      .burguer-menu-container {
+        @apply md:hidden;
+      }
+      .shop-car {
+        @apply hidden md:inline-block;
+      }
+    }
+  }
+}

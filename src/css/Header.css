@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .Header {
+    @apply w-full h-fit;
+    .banner-container {
+      @apply w-full max-w-[1440px] mx-auto relative;
+      .content__banner {
+        @apply w-full h-full absolute top-0 flex flex-col justify-center items-center;
+        .title {
+          @apply font-nunito text-3xl font-black text-BeigetextColor md:text-6xl;
+        }
+        button {
+          @apply px-12 py-2 mt-2 bg-BeigetextColor rounded-3xl font-bold text-xl leading-none;
+        }
+      }
+    }
+  }
+}
