@@ -1,7 +1,6 @@
+import { Navbar } from "../components/Navbar";
 function MyOrders() {
-  return(
-    <h2 className="text-blue-900">Hola Mundo en MyOrders</h2>
-  )
+  return <Navbar />;
 }
 
-export { MyOrders }
+export { MyOrders };
