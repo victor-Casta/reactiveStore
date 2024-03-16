@@ -1,7 +1,7 @@
 import { Navbar } from "../components/Navbar";
 
-function SigIn() {
+function Search() {
   return <Navbar />;
 }
 
-export { SigIn };
+export { Search };

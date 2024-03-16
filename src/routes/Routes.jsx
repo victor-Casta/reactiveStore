@@ -5,6 +5,7 @@ import { MyOrder } from '../pages/MyOrder'
 import { MyOrders } from '../pages/MyOrders'
 import { NotFound } from '../pages/NotFound'
 import { SigIn } from '../pages/SigIn'
+import { Search } from '../pages/Search'
 
 const AppRoutes = () => {
   let routes = useRoutes([
@@ -13,7 +14,8 @@ const AppRoutes = () => {
     { path: '/my-order', element: <MyOrder /> },
     { path: '/my-orders', element: <MyOrders /> },
     { path: '/*', element: <NotFound /> },
-    { path: '/sigin', element: <SigIn /> }
+    { path: '/sigin', element: <SigIn /> },
+    { path: '/search', element: <Search /> }
   ]);
   return routes
 }

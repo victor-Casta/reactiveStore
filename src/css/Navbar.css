@@ -17,7 +17,7 @@
         @apply md:hidden;
       }
       .shop-car {
-        @apply hidden md:inline-block;
+        @apply ml-2 hidden md:inline-block;
       }
     }
   }

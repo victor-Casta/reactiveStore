@@ -17,21 +17,18 @@ function Navbar() {
         <div className="options">
           <ul>
             <li>
-              <NavLink
-              >
-                My Orders
-              </NavLink>
+              <NavLink to={"/my-orders"} className={({ isActive }) => isActive ? 'underline underline-offset-4' : ''}>My Orders</NavLink>
             </li>
             <li>
-              <NavLink to={"/my-account"}>My Acount</NavLink>
+              <NavLink to={"/my-account"} className={({ isActive }) => isActive ? 'underline underline-offset-4' : ''}>My Account</NavLink>
             </li>
             <li>
-              <NavLink to={"/sigin"}>Sign in</NavLink>
+              <NavLink to={"/sigin"} className={({ isActive }) => isActive ? 'underline underline-offset-4' : ''}>Sign in</NavLink>
             </li>
           </ul>
-          <a href="">
+          <NavLink to={"/search"}>
             <img src={searchLogo} alt="Search" className="search" />
-          </a>
+            </NavLink>
           <a href="">
             <img src={BuyCarLogo} alt="Shop car" className="shop-car" />
           </a>
