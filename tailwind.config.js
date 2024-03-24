@@ -7,6 +7,9 @@ export default {
         PrimaryBg: "#DFD6C5",
         SecondaryBlack: "#171612",
         BeigetextColor: "#E7B671",
+        primaryGreen: "#0C3A2D",
+        softGreen: "#6D9773",
+        brightYellow: "#FFBA00"
       },
       fontFamily: {
         nunito: "'Nunito', sans-serif",
