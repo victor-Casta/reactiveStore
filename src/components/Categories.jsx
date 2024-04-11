@@ -31,7 +31,7 @@ function Categories() {
             </div>
           </div>
         </div>
-        <div className="left-content">
+        <div className="rigth-content">
           <div className="left-content__principal-product">
             <div className="principal-product__clothes">
               <img src={Furniture} alt="clothes image" />
@@ -41,9 +41,9 @@ function Categories() {
               <button>Learn more</button>
             </div>
           </div>
-          <div className='left-content__container'>
-            <a className="left-content__wireless">
-              <img src={Consoles} alt="wireless" />
+          <div className='right-content__container'>
+            <a className="right-content__consoles">
+              <img src={Consoles} alt="Consoles" />
               <p className="left-content__wireless-text">Wireless</p>
             </a>
             <a className="left-content__shoes">
