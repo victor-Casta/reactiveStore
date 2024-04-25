@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
     children: PropTypes.node.isRequired,
   }
   return (
-    <div className='Layout'>
+    <div className='Layout debug-screens'>
       <Navbar />
       <main>
         {children}
