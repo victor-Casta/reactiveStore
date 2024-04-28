@@ -4,6 +4,7 @@ import { Categories } from '../components/Categories'
 import { Characteristics } from '../components/Characteristics'
 import { SalesBanner } from '../components/SalesBanner'
 import headphones from '../assets/images/headphones.png'
+import { BestProducts } from "../components/BestProducts"
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
         img={headphones}
         description="Discover an exceptional listening experience with our next-generation hearing aids."
       />
+      <BestProducts />
     </Layout>
   );
 }

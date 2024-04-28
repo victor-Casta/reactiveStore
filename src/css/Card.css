@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Card {
+ @apply w-[300px] h-[400px] min-w-[300px] relative bg-PrimaryBg shadow-cardShadow rounded-3xl overflow-auto;
+ .top-section {
+  @apply w-full h-fit p-4 absolute flex justify-between;
+  .topics a {
+   @apply px-2 py-1 font-nunito text-[12px] font-bold bg-brightYellow rounded-full opacity-60;
+  }
+ }
+ picture img {
+  @apply w-full h-full object-cover rounded-3xl;
+ }
+ .Card__content {
+  @apply w-full h-[140px] px-8 py-4 absolute bottom-0 bg-primaryGreen rounded-3xl shadow-2xl;
+  .top__content {
+    @apply w-full h-fit flex justify-between;
+   h3, p {
+    @apply w-fit mb-2 font-nunito text-xl font-bold leading-none text-brightYellow;
+   }
+  }
+  .description {
+   @apply text-base font-nunito leading-none mt-2 text-white;
+  }
+ }
+}

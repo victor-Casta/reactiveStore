@@ -14,6 +14,9 @@ export default {
       fontFamily: {
         nunito: "'Nunito', sans-serif",
       },
+      boxShadow: {
+        'cardShadow': '10px 10px 5px -1px rgba(0,0,0,0.42)',
+      }
     },
   },
   plugins: [
