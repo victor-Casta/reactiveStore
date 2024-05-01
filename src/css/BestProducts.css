@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .BestProducts {
- @apply w-full h-fit mx-auto mt-20 p-10 lg:p-20;
+ @apply w-full h-fit mx-auto mt-16 p-10 lg:p-20;
  h2 {
   @apply w-full mb-7 font-nunito text-2xl font-black text-center;
  }
